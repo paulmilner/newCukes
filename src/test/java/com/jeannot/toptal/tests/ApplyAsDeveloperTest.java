@@ -3,10 +3,7 @@ package com.jeannot.toptal.tests;
 import com.jeannot.toptal.webpages.DeveloperApplyPage;
 import com.jeannot.toptal.webpages.DeveloperPortalPage;
 import com.jeannot.toptal.webpages.HomePage;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,6 +15,7 @@ import java.util.concurrent.TimeUnit;
  * These don't work, the site under test must've changed...
  * Taken as example from http://blog.testproject.io/2016/09/06/test-automation-selenium-page-object-model-page-factory/
  */
+@Ignore
 public class ApplyAsDeveloperTest {
     WebDriver driver;
 
